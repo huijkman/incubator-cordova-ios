@@ -37,7 +37,8 @@
 @property (nonatomic, readonly, strong) CDVWhitelist* whitelist; // readonly for public
 @property (nonatomic, readonly, strong) NSArray* supportedOrientations;
 @property (nonatomic, readonly, assign) BOOL loadFromString;
-@property (nonatomic, readwrite, copy) NSString* invokeString __attribute__ ((deprecated));
+//@property (nonatomic, readwrite, copy) NSString* invokeString __attribute__ ((deprecated));
+@property (nonatomic, readwrite, copy) NSString* invokeString;
 
 @property (nonatomic, readwrite, assign) BOOL useSplashScreen;
 @property (nonatomic, readonly, strong) IBOutlet UIActivityIndicatorView* activityView;

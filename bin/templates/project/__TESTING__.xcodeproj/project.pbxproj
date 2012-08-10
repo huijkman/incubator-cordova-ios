@@ -565,6 +565,7 @@
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_LDFLAGS = (
+                    "-L\"${CORDOVALIB}/build/${CONFIGURATION}-${PLATFORM_NAME}\"",
 					"-weak_framework",
 					CoreFoundation,
 					"-weak_framework",
@@ -605,6 +606,7 @@
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_LDFLAGS = (
+                    "-L\"${CORDOVALIB}/build/${CONFIGURATION}-${PLATFORM_NAME}\"",
 					"-weak_framework",
 					CoreFoundation,
 					"-weak_framework",
